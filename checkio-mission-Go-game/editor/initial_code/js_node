@@ -1,0 +1,32 @@
+"use strict";
+
+function goGame(board) {
+    // your code here
+    return 0;
+}
+
+var assert = require('assert');
+if (!global.is_checking) {
+    console.log('Example:')
+    console.log(goGame(['++++W++++',
+                        '+++WBW+++',
+                        '++BWBBW++',
+                        '+W++WWB++',
+                        '+W++B+B++',
+                        '+W+BWBWB+',
+                        '++++BWB++',
+                        '+B++BWB++',
+                        '+++++B+++']))
+
+    // These "asserts" are used for self-checking and not for an auto-testing
+    assert.deepEqual(goGame(['++++W++++',
+                             '+++WBW+++',
+                             '++BWBBW++',
+                             '+W++WWB++',
+                             '+W++B+B++',
+                             '+W+BWBWB+',
+                             '++++BWB++',
+                             '+B++BWB++',
+                             '+++++B+++']), {'B': 3, 'W': 4})
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}

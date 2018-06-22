@@ -1,0 +1,27 @@
+def go_game(board):
+    #replace this for solution
+    return board
+
+if __name__ == '__main__':
+    print("Example:")
+    print(go_game(['++++W++++',
+                   '+++WBW+++',
+                   '++BWBBW++',
+                   '+W++WWB++',
+                   '+W++B+B++',
+                   '+W+BWBWB+',
+                   '++++BWB++',
+                   '+B++BWB++',
+                   '+++++B+++']))
+
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert go_game(['++++W++++',
+                    '+++WBW+++',
+                    '++BWBBW++',
+                    '+W++WWB++',
+                    '+W++B+B++',
+                    '+W+BWBWB+',
+                    '++++BWB++',
+                    '+B++BWB++',
+                    '+++++B+++']) == {'B': 3, 'W': 4}
+    print("Coding complete? Click 'Check' to earn cool rewards!")
